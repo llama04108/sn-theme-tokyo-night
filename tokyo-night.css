@@ -1,0 +1,83 @@
+:root {
+  /* Tokyo Night base palette */
+  --background:        #1a1b26;
+  --bg-dark:           #16161e;
+  --bg-darker:         #101014;
+  --current-line:      #1e202e;
+  --selection:         #515c7e;
+  --foreground:        #a9b1d6;
+  --foreground-bright: #c0caf5;
+  --comment:           #787c99;
+  --muted:             #51597d;
+
+  --red:    #f7768e;
+  --orange: #ff9e64;
+  --yellow: #e0af68;
+  --green:  #9ece6a;
+  --teal:   #73daca;
+  --cyan:   #7dcfff;
+  --blue:   #7aa2f7;
+  --accent: #3d59a1;
+  --purple: #bb9af7;
+  --magenta:#9d7cd8;
+
+  /* SN stylekit mappings */
+  --sn-stylekit-background-color:                    var(--background);
+  --sn-stylekit-foreground-color:                    var(--foreground);
+  --sn-stylekit-border-color:                        var(--bg-darker);
+
+  --sn-stylekit-contrast-background-color:           var(--bg-dark);
+  --sn-stylekit-contrast-foreground-color:           var(--foreground);
+  --sn-stylekit-contrast-border-color:               var(--bg-darker);
+
+  --sn-stylekit-secondary-background-color:          var(--background);
+  --sn-stylekit-secondary-foreground-color:          var(--foreground);
+  --sn-stylekit-secondary-border-color:              var(--bg-darker);
+  --sn-stylekit-secondary-contrast-background-color: var(--current-line);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-bright);
+  --sn-stylekit-secondary-contrast-border-color:     var(--comment);
+
+  --sn-stylekit-editor-background-color:             var(--background);
+  --sn-stylekit-editor-foreground-color:             var(--foreground);
+  --sn-stylekit-paragraph-text-color:                var(--foreground);
+
+  /* Status / semantic */
+  --sn-stylekit-info-color:              var(--blue);
+  --sn-stylekit-info-contrast-color:     var(--background);
+  --sn-stylekit-neutral-color:           var(--purple);
+  --sn-stylekit-neutral-contrast-color:  var(--foreground-bright);
+  --sn-stylekit-success-color:           var(--teal);
+  --sn-stylekit-success-contrast-color:  var(--background);
+  --sn-stylekit-warning-color:           var(--orange);
+  --sn-stylekit-warning-contrast-color:  var(--background);
+  --sn-stylekit-danger-color:            var(--red);
+  --sn-stylekit-danger-contrast-color:   var(--foreground-bright);
+
+  /* Accent tints (used for tags, icons, etc.) */
+  --sn-stylekit-accessory-tint-color-1: var(--blue);
+  --sn-stylekit-accessory-tint-color-2: var(--purple);
+  --sn-stylekit-accessory-tint-color-3: var(--orange);
+  --sn-stylekit-accessory-tint-color-4: var(--cyan);
+  --sn-stylekit-accessory-tint-color-5: var(--teal);
+  --sn-stylekit-accessory-tint-color-6: var(--yellow);
+
+  /* Desktop chrome */
+  --sn-desktop-titlebar-bg-color:        var(--bg-dark);
+  --sn-desktop-titlebar-border-color:    var(--bg-darker);
+  --sn-desktop-titlebar-ui-color:        var(--foreground);
+  --sn-desktop-titlebar-ui-hover-color:  var(--foreground-bright);
+
+  /* Scrollbar */
+  --sn-stylekit-scrollbar-track-border-color: var(--bg-darker);
+  --sn-stylekit-scrollbar-thumb-color:        var(--accent);
+
+  /* Misc internals used in current SN builds */
+  --sn-stylekit-shadow-color:                  var(--bg-darker);
+  --sn-stylekit-grey-5:                        var(--comment);
+  --sn-stylekit-grey-4-opacity-variant:        var(--current-line);
+  --navigation-item-selected-background-color: var(--current-line);
+  --sn-component-foreground-color:             var(--foreground);
+  --sn-component-background-color:             var(--background);
+  --sn-component-outer-border-color:           var(--bg-darker);
+  --sn-component-inner-border-color:           var(--current-line);
+}
