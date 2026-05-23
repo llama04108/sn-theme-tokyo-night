@@ -5,9 +5,9 @@
   "area": "themes",
   "version": "1.0.0",
   "description": "Tokyo Night theme for Standard Notes",
-  "url":           "https://cdn.jsdelivr.net/gh/llama04108/SN-Tokyo-Night@main/tokyo-night.css",
-  "latest_url":    "https://cdn.jsdelivr.net/gh/llama04108/SN-Tokyo-Night@main/ext.json",
+  "url":          "https://cdn.jsdelivr.net/gh/llama04108/SN-Tokyo-Night@v1.0.0/tokyo-night.css",
   "download_url": "https://github.com/llama04108/SN-Tokyo-Night/archive/refs/tags/v1.0.0.zip",
+  "latest_url":   "https://cdn.jsdelivr.net/gh/llama04108/SN-Tokyo-Night@main/ext.json",  
   "marketing_url": "https://github.com/llama04108/SN-Tokyo-Night",
   "dock_icon": {
     "type": "circle",
