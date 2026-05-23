@@ -1,0 +1,18 @@
+{
+  "identifier": "com.yourname.sn-theme-tokyo-night",
+  "name": "Tokyo Night",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Tokyo Night theme for Standard Notes",
+  "url": "https://cdn.jsdelivr.net/gh/<your-user>/<your-repo>@main/tokyo-night.css",
+  "latest_url": "https://cdn.jsdelivr.net/gh/<your-user>/<your-repo>@main/ext.json",
+  "marketing_url": "https://github.com/<your-user>/<your-repo>",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#7aa2f7",
+    "foreground_color": "#7aa2f7",
+    "border_color": "#7aa2f7"
+  },
+  "statusBar": "dark-content"
+}
